@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Disable page cache -->
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>PDFViewer 4.0</title>
+    
+  </head>
+  <body>
+    <!--options shown when the index is collapsed-->
+    <div id="floatingIndexOptions" class="floatingIndexOptions" style="display: none;">
+      <button type="button" id="showNav" class="showNavButton">Show Index</button>
+    </div>
+    <div id="indexHeadingTop" class="indexHeadingTop"><!--part that contains the index title and the hide nav button-->
+      <h2 style="text-align: center;">Index</h2>
+      <div class="indexOptions"><!--Display options for the PDF index-->
+        <button type="button" id="navSettings" class="indexButton2" title="Settings">Settings</button>
+        <button type="button" id="hideNav" class="indexButton1">Hide Index</button>
+      </div>
+    </div>
+    <div id="nav" class="nav">
+    <!--Index items are handled by JSON and JavaScript | Add entries to "navigation.txt" file | To add static entries, enter them below-->
+
+     <!-- <a href="pdfjs/web/viewer.html?file=../../../Documents/pdf-name-here.pdf" title="pdf-name-here" class="link" target="PDF">
+      <span style="margin: 10px;">pdf-name-Here</span>
+    </a> -->
+
+    <!-- Insert the PDF name or link in place of "pdf-name-here" -->
+
+    </div>
+    <!-- Navigation settings box -->
+    <div id="settingsBackdrop" class="settingsBackdrop" style="display: none;"></div>
+    <div id="navSettingsDialog" class="navSettingsDialog" style="display: none;">
+      <button type="button" style="float: right;" id="closeSettings">X</button>
+      <h2>Settings</h2>
+      <hr>
+      <table>
+        <tr>
+          <td>Display the full entry name upon mouse hover</td>
+          <td><input type="checkbox" id="displayFullTitle" checked></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Force-reload the index</td>
+          <td><button type="button" onclick="reloadIndex()">Reload Now</button></td>
+          <td><p id="reloadConf" style="display: none; color: green">Done!</p></td>
+        </tr>
+      </table>
+      <br><hr>
+      <button type="button" id="closeSettings2">Apply Settings</button>
+    </div>
+    <!-- PDF.JS Iframe -->
+    <iframe src="pdfjs/web/viewer.html" height="768" id="PDF" name="doc"></iframe>
+    <script src="navBuilder.js"></script>
+    <script src="interpreter.js"></script>
+    <script src="index.js"></script>
+    <script>console.log("PDFViewer 4.0 is now loaded!");</script>
+  </body>
+</html>

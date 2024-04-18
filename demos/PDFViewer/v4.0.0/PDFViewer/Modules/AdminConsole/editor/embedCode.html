@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="../img/favicon.ico" rel="icon" />
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="stylesheet" type="text/css" href="edit.css" />
+    <!-- Disable page cache -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
+    <title>Convert Embed Code | PDFViewer Admin Console</title>
+</head>
+<body>
+    <!-- Page banner -->
+    <div class="topnav">
+        <span class="title">PDFViewer</span><span class="title" style="color: blue;">Admin Console</span>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <h2>Convert Embed Code</h2><br />
+
+        <span>Paste embed code here</span>
+        <textarea id="codeSpace" name="codeSpace" spellcheck="false" autocapitalize="off" autocomplete="off"></textarea>
+        <br>
+        <button type="button" id="convertCode" onclick="convertEmbedCode()">Convert Embed Code</button>
+
+        <br /><br />
+
+        <span>Use this hyperlink below in the file location field:</span>
+        <br /><br />
+        <input type="text" id="hyperlinkText" style="width: 75%;">
+
+        <br /><br />
+        <button type="button" id="closeWindow" onclick="window.close()">Close</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../jquery-3.5.1.js"></script>
+    <script src="../jquery-ui.js"></script>
+    <script>
+        const codeSpace = document.getElementById("codeSpace");
+        const hyperlinkText = document.getElementById("hyperlinkText");
+        function convertEmbedCode() {
+            var codeSpaceSplit = codeSpace.value.split("src=")[1].split("\"");
+            var indexOfSegmentWithLink = -1;
+            for (var i = 0; i < codeSpaceSplit.length; i++) {
+                if (codeSpaceSplit[i].search(/http/) != -1) {
+                    indexOfSegmentWithLink = i;
+                    break;
+                }
+            }
+
+            var link = codeSpaceSplit[indexOfSegmentWithLink];
+            
+            const ampRegex = /&amp;/g;
+            link = link.replace(ampRegex, "&");
+
+            hyperlinkText.value = link;
+        }
+    </script>
+</body>
+</html>

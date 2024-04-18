@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="../img/favicon.ico" rel="icon" />
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="stylesheet" type="text/css" href="edit.css" />
+    <!-- Disable page cache -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
+    <title>Edit Index | PDFViewer Admin Console</title>
+</head>
+<body>
+    <!-- Page banner -->
+    <div class="topnav">
+        <span class="title">PDFViewer</span><span class="title" style="color: blue;">Admin Console</span>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <h2>Edit the PDF Index</h2><br />
+
+        <!-- <div id="controls">
+            <button type="button" id="addNew" onclick="newEntry()">Add new entry</button>
+            <button type="button" id="addNewSection" onclick="openNewSection()">Add new section</button>
+            <button type="button" id="returnHome" onclick="returnHome()" style="background-color: blue; color: white;">Return Home</button>
+            <button type="button" id="submitChanges" onclick="submitChanges()" style="background-color: green; color: white;">Submit Changes</button>
+        </div> -->
+        <div id="controls">
+            <ul>
+                <li><button type="button" id="addNewEntry">Add new entry</button></li>
+                <li><button type="button" id="addNewHeading">Add new heading</button></li>
+                <li><button type="button" id="addNewSection">Add new section</button></li>
+                <li><button type="button" id="convertEmbedCode">Convert Embed Code</button></li>
+                <li><button type="button" id="returnHome">Return Home</button></li>
+                <li><button type="button" id="generateFile">Generate File</button></li>
+            </ul>
+        </div>
+
+        <div id="nav" class="nav">
+
+        </div>
+
+        <div id="entryEditor" class="entryEditor">
+            <div id="banner" style="background-color: white;">SELECT A TASK OR INDEX ENTRY TO BEGIN</div>
+            <div id="actionBanner" style="display: none;"></div>
+            <!-- Populated with JavaScript -->
+            <form method="POST">
+
+                <table id="editingTable" style="display: none">
+                    <tbody>
+                        <tr>
+                            <td class="tbLeft">Section</td>
+                            <td>
+                                <input type="text" id="indexSection" disabled="disabled" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft">Title</td>
+                            <td><input type="text" id="indexTitle" /></td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft">Style</td>
+                            <td>
+                                <select name="indexStyle" id="indexStyle">
+                                    <option value="notSet">&gt;&gt;Select a style&lt;&lt;</option>
+                                    <option value="normal">Normal</option>
+                                    <option value="indent">Indent</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft">File location</td>
+                            <td><input type="text" id="indexLink" /></td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft">Type of link</td>
+                            <td>
+                                <select name="indexType" id="indexType">
+                                    <option value="notSet">&gt;&gt;Select a style&lt;&lt;</option>
+                                    <option value="internal">PDF Document</option>
+                                    <option value="external">Webpage</option>
+                                    <option value="hyperlink">External Webpage (Open in a new tab)</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft"><button type="button" id="btClearEntry" class="btClear" title="Clear all form fields">Clear Form</button></td>
+                            <td>
+                                <button type="button" id="btDeleteEntry" class="btDelete" title="Delete this item">DELETE</button>
+                                <button type="button" id="btResetEntry" class="btReset" title="Reset changes made to this form">Reset</button>
+                                <button type="button" id="btSaveEntry" class="btSave" title="Clear all form fields">Save</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table id="editingTableHeading" style="display: none">
+                    <tbody>
+                        <tr>
+                            <td class="tbLeft">Section</td>
+                            <td>
+                                <input type="text" id="headingSection" disabled="disabled" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft">Title</td>
+                            <td><input type="text" id="headingTitle" /></td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft">Style</td>
+                            <td>
+                                <select name="headingStyle" id="headingStyle">
+                                    <option value="notSet">&gt;&gt;Select a style&lt;&lt;</option>
+                                    <option value="heading1">Heading 1</option>
+                                    <option value="heading2">Heading 2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft"><button type="button" id="btClearHeading" class="btClear" title="Clear all form fields">Clear Form</button></td>
+                            <td>
+                                <button type="button" id="btDeleteHeading" class="btDelete" title="Delete this item">DELETE</button>
+                                <button type="button" id="btResetHeading" class="btReset" title="Reset changes made to this form">Reset</button>
+                                <button type="button" id="btSaveHeading" class="btSave" title="Clear all form fields">Save</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table id="editingTableSection" style="display: none">
+                    <tbody>
+                        <tr>
+                            <td class="tbLeft">Section Name</td>
+                            <td><input type="text" id="sectionName" /></td>
+                        </tr>
+                        <tr>
+                            <td class="tbLeft"><button type="button" id="btClearSection" class="btClear" title="Clear all form fields">Clear Form</button></td>
+                            <td>
+                                <button type="button" id="btDeleteSection" class="btDelete" title="Delete this item">DELETE</button>
+                                <button type="button" id="btResetSection" class="btReset" title="Reset changes made to this form">Reset</button>
+                                <button type="button" id="btSaveSection" class="btSave" title="Clear all form fields">Save</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>When finished making changes, click <strong>"Save"</strong>. When ready to apply changes to the database, click <strong>"Generate File"</strong> and upload the file to the server.</p>
+                <p>Changes will only be saved during this browser session.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Download box -->
+    <div id="downloadBoxWrapper" style="display: none;">
+        <div id="downloadBox">
+            <h3>The Index Database File Is Ready</h3>
+            <p>Click the link below to download the index file. If the download doesn't work, 
+            copy and paste the code below into a text editor, and save the file as "navigation.txt" before uploading it to the server.
+            If using Internet Explorer, please copy the text below into a text editor and save the file as "navigation.txt" instead of using the link.</p>
+            <textarea id="codeSpace" name="codeSpace" spellcheck="false" autocapitalize="off" autocomplete="off"></textarea>
+            <br /> <br />
+            <a download="" href="" id="downloadLink">Click here to download the index file</a>
+            <br /><br /><br />
+            <button type="button" id="closeDownload">Close dialog</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../jquery-3.5.1.js"></script>
+    <script src="../jquery-ui.js"></script>
+    <script src="navBuilder.js"></script>
+    <script src="interpreter.js"></script>
+    <script src="edit.js"></script>
+</body>
+</html>

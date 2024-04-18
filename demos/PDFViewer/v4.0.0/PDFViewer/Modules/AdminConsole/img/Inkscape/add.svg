@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="add.svg">
+  <title
+     id="title32">Add Button</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="85.241845"
+     inkscape:cy="145.68062"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Add Button</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-229.26665)">
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:3.00471783"
+       d="M 128 0 A 127.99999 127.99999 0 0 0 0 128 A 127.99999 127.99999 0 0 0 128 256 A 127.99999 127.99999 0 0 0 256 128 A 127.99999 127.99999 0 0 0 128 0 z M 129.28516 32.857422 A 95.142856 95.142856 0 0 1 224.42773 128 A 95.142856 95.142856 0 0 1 129.28516 223.14258 A 95.142856 95.142856 0 0 1 34.142578 128 A 95.142856 95.142856 0 0 1 129.28516 32.857422 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,229.26665)"
+       id="path10" />
+    <g
+       id="g30"
+       transform="matrix(1.1179487,0,0,1.1179487,-4.54056,-30.301219)">
+      <rect
+         y="244.08333"
+         x="31.75"
+         height="36.85268"
+         width="5.4806542"
+         id="rect24"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:0.26458332" />
+      <rect
+         transform="rotate(90)"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:0.26458332"
+         id="rect26"
+         width="5.4806542"
+         height="36.85268"
+         x="259.76935"
+         y="-52.916668" />
+    </g>
+  </g>
+</svg>

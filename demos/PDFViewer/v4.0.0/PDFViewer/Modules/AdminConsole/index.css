@@ -1,0 +1,78 @@
+﻿body {
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0;
+  background-color: rgb(0, 62, 126);
+}
+
+.topnav {
+  background-color: white;
+  padding: 7px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 4px solid yellow;
+  z-index: 10000;
+}
+
+.title {
+  margin: 5px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.content {
+  position: relative;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  top: 80px;
+  padding: 2px;
+  background-color: rgb(242, 242, 242);
+}
+
+.wrapper { /* outside wrapping around cards */
+  padding: 15px;
+  display: inline-block;
+}
+
+.cardwrap { /* anchor element */
+  text-decoration: none;
+  color: blue;
+}
+
+.card {
+  text-align: center;
+  display: block;
+  width: 245px;
+  height: 235px;
+  padding: 6px;
+  border: 3px solid rgb(175, 175, 175);
+  border-radius: 6px;
+}
+
+.addTable, tr, td {
+  margin: auto;
+  border: 1px solid grey;
+}
+
+.addTable .input1{
+  width: 250px;
+}
+
+.addTable td {
+  text-align: center;
+}
+
+.reloadMessage { /* Message displayed when a reload is required to show changes */
+    background-color: rgb(200, 200, 200);
+    border-top: 3px solid blue;
+    padding: 5px;
+}
+
+.errMessage {
+    margin: auto;
+    padding: 7px;
+    border: 2px solid yellow;
+    background-color: rgb(230, 230, 230);
+    width: 90%;
+}

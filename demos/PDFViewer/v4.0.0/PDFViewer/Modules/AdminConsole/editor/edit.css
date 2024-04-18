@@ -1,0 +1,169 @@
+/* Styling for navigation index */
+
+.nav { /* Navigation index */
+    width: 25%;
+    /*min-width: 185px;*/
+    min-height: 500px;
+    max-height: 90%;
+    overflow: auto;
+    background-color: white;
+    padding: 2px;
+    border: 1px solid grey;
+}
+
+.link { /* Entries in the navigation index */
+    display: block;
+    color: black;
+    background-color: rgb(228, 228, 228);
+    text-decoration: none;
+    padding: 6px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.link:hover { /* Hover styling */
+    background-color: rgb(220, 220, 220);
+    overflow: visible;
+    white-space: normal;
+    text-overflow: initial;
+    cursor: pointer;
+}
+
+.nav h3, .nav h4 {
+    cursor: pointer;
+}
+
+.activeIndex { /* Index entry color when active */
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-left: 5px solid green;
+}
+
+.activeIndex:hover {
+    background-color: rgb(50, 50, 255);
+}
+
+.activeSection { /* Section background color when active*/
+    background-color:rgb(220, 220, 220);
+}
+
+.identText {
+    color: rgb(50, 50, 50);
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 12px;
+    border-left: 16px solid rgb(63, 146, 209);
+    padding: 4px;
+}
+
+.section {
+    border-top: 3px solid rgb(63, 146, 209); /* add border to seperate sections */
+    padding: 4px; /* Create spacing between border and elements */
+}
+
+/* Styling for controls */
+#controls {
+    background-color: blue;
+    height: 30px;
+}
+
+#controls ul {
+    list-style-type: none;
+}
+
+#controls li {
+    display: inline-block;
+    padding: 3px;
+}
+
+#controls button {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 3px;
+    font-weight: bold;
+    color: white;
+}
+
+#controls button:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+/* Styling for banners */
+#banner {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#actionBanner {
+    font-weight: bold;
+    padding: 2px;
+}
+
+/* Styling for the editor */
+.entryEditor { /* Editor for index entries (right of screen) */
+    position: absolute;
+    top: 140px;
+    left: 26%;
+    width: 73%;
+    border: 2px solid grey;
+}
+
+.entryEditor table {
+    width: 85%;
+    text-align: end;
+    margin: auto;
+}
+
+.tbLeft {
+    width: 200px;
+}
+
+.entryEditor table input {
+    width: 97%;
+}
+
+.entryEditor table select {
+    width: 97%;
+}
+
+/* Styling for buttons */
+.btDelete{
+    background-color: red;
+}
+
+.btSave {
+    background-color: green;
+    color: white;
+}
+
+/* Download box */
+#downloadBoxWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(30, 30, 30, .5);
+}
+
+#downloadBox {
+    background-color:rgb(220, 220, 220);
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+    border-color:rgb(228, 228, 228);
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+#codeSpace {
+    width: 90%;
+    height: 40%;
+}

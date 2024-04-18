@@ -1,0 +1,159 @@
+body {
+  font-family: Arial;
+  font-size: 15px;
+  margin: 0;
+}
+
+h4 {
+  margin-left: 3px;
+}
+
+iframe {
+  position: fixed;
+  margin-left: 19%;
+  border: none;
+  width: 80%;
+  height: 99vh;
+}
+
+.nav { /* Contains the index items */
+  width: 19%;
+  position: fixed;
+  top: 110px; /* Move index down by 110 px */
+  overflow: auto;
+  background-color: rgb(240, 240, 240);
+}
+
+.indexHeadingTop { /* Index heading - contains the index title and hide index button */
+  z-index: 10000;
+  position: fixed;
+  width: 19%;
+  height: 110px; /* take up the 110 px of space */
+  background-color: rgb(240, 240, 240);
+}
+
+.link {
+  display: block;
+  width: 100%;
+  color: black;
+  background-color: rgb(228, 228, 228);
+  text-decoration: none;
+  padding: 6px 0;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.link:hover {
+  background-color: rgb(220, 220, 220);
+  overflow: visible;
+  white-space: normal;
+  text-overflow: initial;
+}
+
+.active { /* Index entry color when active */
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-left: 5px solid green;
+}
+
+.active:hover {
+  background-color: rgb(50, 50, 255);
+}
+
+/* Hide index styling */
+.indexOptions {
+  position: absolute;
+  right: 0;
+}
+
+.indexButton1 { /* Button style 1 for index options */
+  border-style: solid;
+  border-width: 2px 0 2px 2px;
+  border-color: grey;
+  height: 35px;
+  width: 100px;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+}
+
+.indexButton2 { /* Button style 2 */
+  border-style: solid;
+  border-width: 2px 0 2px 2px;
+  border-color: grey;
+  height: 35px;
+  width: 75px;
+  margin-right: -20px;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+}
+
+#navSettings {
+  background-image: url(images/cog.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+  color: transparent;
+}
+
+.indexButton1:hover {
+  color: grey;
+}
+
+.indexButton2:hover {
+  color: grey;
+}
+
+/* Options when the index is collapsed */
+.floatingIndexOptions {
+  z-index: 10000;
+  position: fixed;
+  top: 75px;
+}
+
+.showNavButton {
+  border-style: solid;
+  border-width: 2px 2px 2px 0;
+  border-color: grey;
+  padding: 6px;
+  width: 100px;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+.showNavButton:hover {
+  color: grey;
+}
+
+/* Navigation settings  */
+.settingsBackdrop {
+  position: fixed;
+  z-index: 10001;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.4);
+}
+
+.navSettingsDialog {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  top: 20%;
+  left: 25%;
+  z-index: 10002;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 5px;
+}
