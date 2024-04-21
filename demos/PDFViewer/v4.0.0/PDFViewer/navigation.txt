@@ -1,20 +1,19 @@
 [
     {
-        "type":"section","section":"about_section","content":
-        [
-            {"type":"heading1","value":"About PDFViewer"},
-            {"type":"heading2","value":"Information"},
-            {"type":"entry","title":"What is PDFViewer?","style":"normal","link":"../../../Documents/What_is_PDFViewer.pdf","host":"internal"},
-            {"type":"entry","title":"(Download) What is PDFViewer.docx","style":"indent","link":"../Documents/What is PDFViewer.docx","host":"hyperlink"}
-        ]
-    },
-    {
-        "type":"section","section":"release_notes","content":
-        [
-            {"type":"heading1","value":"Release Notes"},
-            {"type":"heading2","value":"Release notes and change logs"},
-            {"type":"entry","title":"Release Notes","style":"normal","link":"../../../Documents/release_notes.pdf","host":"internal"},
-            {"type":"entry","title":"(Download) Release Notes.docx","style":"indent","link":"../Documents/Release Notes.docx","host":"hyperlink"}
+        "type": "section",
+        "section": "Sample_Section",
+        "content": [
+            {
+                "type": "heading1",
+                "value": "Sample Heading"
+            },
+            {
+                "type": "entry",
+                "title": "Default.pdf",
+                "style": "normal",
+                "link": "../../../Documents/Default.pdf",
+                "host": "internal"
+            }
         ]
     }
 ]

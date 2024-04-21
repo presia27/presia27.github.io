@@ -1,3 +1,29 @@
+/*
+
+========}    P D F V I E W E R    {========
+        
+        PDFViewer 4.0.0
+        COPYRIGHT (C) 2024 PRESTON SIA (PRESIA27)
+        THIS SOFTWARE IS LICENSED UNDER THE APACHE LICENSE, VERSION 2.0
+        [https://www.apache.org/licenses/LICENSE-2.0]
+
+        This project utilizes the PDF.js project by Mozilla.
+        PDF.js is licensed under Apache, and Copyright (C) Mozilla and individual contributors.
+        [https://mozilla.github.io/pdf.js/]
+
+*/
+
+
+/*
+
+This script is specific to the AdminConsole Editor (not
+to be confused with the file with the same name used
+in the "viewer" front-end, even though they're pretty similar).
+This file loads index information using the functions in navBuilder.js.
+
+*/
+
+
 var nav = document.getElementById("nav");
 var jsonurl = "../../../navigation.txt";
 

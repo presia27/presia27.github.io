@@ -1,3 +1,28 @@
+/*
+
+========}    P D F V I E W E R    {========
+        
+        PDFViewer 4.0.0
+        COPYRIGHT (C) 2024 PRESTON SIA (PRESIA27)
+        THIS SOFTWARE IS LICENSED UNDER THE APACHE LICENSE, VERSION 2.0
+        [https://www.apache.org/licenses/LICENSE-2.0]
+
+        This project utilizes the PDF.js project by Mozilla.
+        PDF.js is licensed under Apache, and Copyright (C) Mozilla and individual contributors.
+        [https://mozilla.github.io/pdf.js/]
+
+*/
+
+
+/*
+
+This script contains functions that retrieve index information
+and builds arrays to store navigation information. This is
+designed to interface with another script (e.g. interpreter.js)
+which calls upon the functions contained here.
+
+*/
+
 // **Variables**
 var nav = document.getElementById("nav");
 var jsonData = "";
