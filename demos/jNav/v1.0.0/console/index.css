@@ -1,0 +1,89 @@
+/*
+
+    ========}   jNav Edit Console   {========
+        jNav Edit Console 1.0.0
+        COPYRIGHT (C) 2024 PRESTON SIA (PRESIA27)
+        THIS SOFTWARE IS LICENSED UNDER THE APACHE LICENSE, VERSION 2.0
+        [https://www.apache.org/licenses/LICENSE-2.0]
+
+        This project utilizes:
+            jQuery 3.5.1, licensed under the MIT license
+            and Copyright JS Foundation and other contributors.
+            [https://jquery.com/]
+            [https://jquery.org/license]
+
+            jQuery UI v 1.11.4, under the MIT license and
+            Copyright 2015 jQuery Foundation and other contributors
+            [http://jqueryui.com]
+
+        Author: Preston Sia
+        Created: 2024-06-29
+        Last Updated: 2024-07-02
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #808080;
+}
+
+.titleBar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    border-bottom: 4px solid #b7a57a;
+    z-index: 10000;
+}
+
+.titleBar h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.content {
+    position: relative;
+    display: block;
+    padding: 2px;
+    width: 80%;
+    margin: 0 auto;
+    top: 80px;
+    background-color: #f4f4f4;
+}
+
+/*  AAA-Card Navigation */
+.cardWrap {
+    margin-left: 92px;
+    margin-right: 92px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.aaaCardWrapper {
+    padding: 5px;
+}
+
+.aaaCardWrapper a {
+    text-decoration: none;
+}
+
+.aaaCard {
+    text-align: center;
+    color: blue;
+    padding: 12px;
+    min-width: 320px;
+    border: 2px solid #808080;
+    border-radius: 5px;
+}
+
+.aaaCard:hover {
+    color: #6a6aff;
+}
+
+.aaaCard .cardTitle {
+    font-size: 16px;
+}

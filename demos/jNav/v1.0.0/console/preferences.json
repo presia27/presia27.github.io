@@ -1,0 +1,6 @@
+{
+    "jsonUrl": "demo.json",
+    "defaultFileName": "demo.json",
+    "formProcessor": null,
+    "templateUrl": "template.json"
+}
