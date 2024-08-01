@@ -1,19 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--
+        
+            This is the main (index) file for this portfolio, with links to other projects.
+
+            Author: Preston Sia
+            Created: ??
+            Last updated: 2024-07-31
+
+        -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="web_author" content="Preston Sia (presia27)">
+        <meta name="description" content="Preston's portfolio of projects and demos.">
+        <meta name="keywords" content="presia27, Preston, coding, computer science">
+        <meta name="theme-color" content="#00a8f3">
+
         <title>presia27's GitHub.io Page</title>
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="content/img/favicon16x16.png" type="image/png" sizes="16x16">
+        <link rel="icon" href="content/img/favicon32x32.png" type="image/png" sizes="32x32">
+        <link rel="icon" href="content/img/favicon48x48.png" type="image/png" sizes="48x48">
+
+        <link rel="stylesheet" href="style/global.css" type="text/css">
+        <link rel="stylesheet" href="style/index.css" type="text/css">
+        <link rel="stylesheet" href="style/fontawesome-free-5.6.3-web/css/all.css" text="text/css">
+
+        <!-- Open Graph Protocol Metadata -->
+        <meta property="og:title" content="presia27's GitHub.io Page">
+        <meta property="og:description" content="Preston's portfolio of projects and demos.">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:site_name" content="presia27's GitHub.io Page">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="">
+
+        <!-- Windows Meta Tag -->
+        <meta name="msapplication-navbutton-color" content="#00a8f3"><!-- Same as theme color -->
+        <meta name="application-name" content="presia27's GitHub.io Page">
+        <meta name="msapplication-tooltip" content="Launch presia27's GitHub.io Page">
+        <meta name="msapplication-task" content="name=Home;action-uri=/;icon-uri=/content/img/logomain.png">
+
+        <meta name="msapplication-TileColor" content="#0066ff">
+        <meta name="msapplication-square70x70logo" content="content/img/MSAppLogo/smalltile.png">
+        <meta name="msapplication-square150x150logo" content="content/img/MSAppLogo/mediumtile.png">
+        <meta name="msapplication-wide310x150logo" content="content/img/MSAppLogo/widetile.png">
+        <meta name="msapplication-square310x310logo" content="content/img/MSAppLogo/largetile.png">
+
+        <!-- Scripts -->
+        
     </head>
     <body>
-        <h1>Welcome!</h1>
-        <p>
-            <a href="https://github.com/presia27/">Go to presia27's GitHub Page</a>
-        </p>
-        <p>
-            This page is a work in progress, and will be updated and improved soon. For now,
-            check out the following links to some of my project demos:
-        </p>
+        <!-- Site Navigation -->
+        <section>
+            <div class="aaaNavWrap">
+                <div class="aaaNav" id="mainNav1">
+
+                    <div class="aaaNavLeft">
+                        <a href=""><div class="aaaNavImage"><img src="content/img/logomain.png" width="64" height="64" alt="Page Logo"></div></a>
+                    </div>
+
+                    <div class="aaaNavRight aaaMobileMenu" id="mainMobileMenu">
+                        <a href="javascript:void(0)" id="btnCloseMobileMenu" aria-label="Close Mobile Menu"><!-- For the mobile menu, hidden on desktop view -->
+                            <div class="aaaMobileNavClose">
+                                <i class="fas fa-times"></i>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/presia27/" aria-label="GitHub Page">
+                            <div class="aaaNavLink">
+                                GitHub Page
+                            </div>
+                        </a>
+
+                        <a href="" aria-label="All Projects">
+                            <div class="aaaNavLink">
+                                All Projects
+                            </div>
+                        </a>
+
+                        <a href="" aria-label="About Me">
+                            <div class="aaaNavLink">
+                                About Me
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="aaaNavMobileBtn">
+                        <a href="javascript:void(0);" aria-label="Open Navigation Menu" id="btnOpenMobileMenu"><div class="aaaNavLink"><i class="fas fa-bars"></i></div></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Main page banner -->
+        <section>
+            <div class="mainBannerWrap topPageElm">
+                <div class="mainBanner">
+                    <h1>Welcome!</h1>
+                    <p>
+                        <a href="https://github.com/presia27/">Go to presia27's GitHub Page</a>
+                    </p>
+                    <p>
+                        This page is a work in progress, and will be updated and improved soon. For now,
+                        check out the following links to some of my project demos:
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <ul style="list-style-type: none;">
             <li>
 
@@ -55,5 +154,8 @@
                 </ul>
             </li>
         </ul>
+
+        <!-- Scripts -->
+        <script src="js/global.js"></script>
     </body>
 </html>

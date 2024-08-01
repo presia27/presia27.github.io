@@ -1,0 +1,26 @@
+/*
+
+    Stylesheet for index.html
+
+    Author: Preston Sia
+    Created: 2024-07-31
+    Last updated: 2024-04-31
+
+*/
+
+.mainBannerWrap {
+    padding: 8px;
+    min-height: 50vh;
+    background: linear-gradient(white, white, #d7d7d9);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainBanner {
+    margin-left: 48px;
+    margin-right: 48px;
+
+    text-align: center;
+}

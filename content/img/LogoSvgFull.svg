@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="325"
+   height="95"
+   viewBox="0 0 85.98958 25.135422"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="PrestonLogo.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient852"
+       inkscape:collect="always">
+      <stop
+         id="stop848"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop850"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <inkscape:path-effect
+       end_linecap_type="zerowidth"
+       miter_limit="4"
+       linejoin_type="extrp_arc"
+       start_linecap_type="zerowidth"
+       interpolator_beta="0.2"
+       interpolator_type="CubicBezierJohan"
+       sort_points="true"
+       offset_points="0,0.13229166"
+       is_visible="true"
+       id="path-effect4577"
+       effect="powerstroke" />
+    <inkscape:path-effect
+       end_linecap_type="zerowidth"
+       miter_limit="4"
+       linejoin_type="extrp_arc"
+       start_linecap_type="zerowidth"
+       interpolator_beta="0.2"
+       interpolator_type="CubicBezierJohan"
+       sort_points="true"
+       offset_points="0,7.6029104"
+       is_visible="true"
+       id="path-effect4573"
+       effect="powerstroke" />
+    <inkscape:path-effect
+       end_linecap_type="zerowidth"
+       miter_limit="4"
+       linejoin_type="extrp_arc"
+       start_linecap_type="zerowidth"
+       interpolator_beta="0.2"
+       interpolator_type="CubicBezierJohan"
+       sort_points="true"
+       offset_points="0,0.13229166"
+       is_visible="true"
+       id="path-effect4569"
+       effect="powerstroke" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="0.26458333"
+       copytype="single_stretched"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       is_visible="true"
+       id="path-effect4565"
+       effect="skeletal" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="0.26458333"
+       copytype="single_stretched"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       is_visible="true"
+       id="path-effect4540"
+       effect="skeletal" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="0.26458333"
+       copytype="single_stretched"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       is_visible="true"
+       id="path-effect4536"
+       effect="skeletal" />
+    <inkscape:path-effect
+       fuse_tolerance="0"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="0.26458333"
+       copytype="single_stretched"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       is_visible="true"
+       id="path-effect827"
+       effect="skeletal" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="276.16608"
+       x2="0.12048632"
+       y1="276.16608"
+       x1="25.718943"
+       id="linearGradient854"
+       xlink:href="#linearGradient852"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="148.11883"
+     inkscape:cy="70.571898"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-271.86453)">
+    <g
+       transform="matrix(0.36706009,0,0,0.36706009,1.3207802,187.95945)"
+       id="layer1-3"
+       inkscape:label="Layer 1">
+      <ellipse
+         ry="33.83427"
+         rx="33.659412"
+         cy="263.16577"
+         cx="33.746906"
+         id="path14"
+         style="fill:#00a8f3;fill-opacity:1;stroke-width:0.71303737" />
+      <text
+         id="text823"
+         y="280.32346"
+         x="20.262794"
+         style="font-style:normal;font-weight:normal;font-size:49.47792816px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.23694813"
+         xml:space="preserve"><tspan
+           style="fill:#ffffff;stroke-width:1.23694813"
+           y="280.32346"
+           x="20.262794"
+           id="tspan821"
+           sodipodi:role="line">P</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="rect829"
+         d="M 0.12048632,276.16608 H 25.718943 v 4.15905 H 0.12048632 Z"
+         style="opacity:1;fill:url(#linearGradient854);fill-opacity:1;stroke-width:1.08508587" />
+      <path
+         inkscape:original-d="m 3.2900329,288.53928 -0.9455781,7.9e-4 0.9455781,1.46036 z"
+         inkscape:path-effect="#path-effect4569"
+         inkscape:connector-curvature="0"
+         id="path4567"
+         d="m 6.1266567,288.40462 c -0.5673469,4.7e-4 -2.2693875,0.002 -2.8367343,0.002 z m -2.8365133,0.26695 c 0.5673469,-4.7e-4 2.2693875,-0.002 2.8367343,-0.002 z"
+         style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.196936"
+       y="282.38544"
+       id="text3753"><tspan
+         sodipodi:role="line"
+         id="tspan3751"
+         x="28.196936"
+         y="282.38544"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.26458332;fill:#ffffff">Preston</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.59819794px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21495494"
+       x="28.998743"
+       y="290.69217"
+       id="text3757"><tspan
+         sodipodi:role="line"
+         id="tspan3755"
+         x="28.998743"
+         y="290.69217"
+         style="stroke-width:0.21495494"><tspan
+   style="font-size:4.58570576px;stroke-width:0.21495494;fill:#ffffff"
+   id="tspan3761">T E C H N O L O G I E S</tspan> </tspan></text>
+  </g>
+</svg>
