@@ -24,3 +24,8 @@
 
     text-align: center;
 }
+
+.mainBanner h1 {
+    font-weight: 800;
+    font-size: 36px;
+}
