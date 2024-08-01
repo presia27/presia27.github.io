@@ -196,4 +196,8 @@ body {
     .aaaCardWrap {
         flex-direction: column;
     }
+
+    .bbbCardWrap {
+        grid-template-columns: 100%;
+    }
 }
